@@ -1,0 +1,59 @@
+/* Fundo da página */
+
+.cadastro-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Card */
+
+.cadastro-card{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    width:320px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+/* Título */
+
+.cadastro-card h2{
+    margin-bottom:20px;
+}
+
+/* Inputs */
+
+.cadastro-card input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+/* Botão */
+
+.cadastro-card button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    background:#2c5364;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Hover botão */
+
+.cadastro-card button:hover{
+    background:#1a3947;
+}
